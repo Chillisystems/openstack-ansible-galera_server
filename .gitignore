@@ -67,4 +67,8 @@ tests/common
 # Vagrant artifacts
 .vagrant
 
+tests/plugins
 
+# Vim temp files
+*.swp
+*.swo
