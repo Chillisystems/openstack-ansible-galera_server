@@ -60,3 +60,7 @@ releasenotes/build
 
 # Test temp files
 tests/plugins
+
+# Vim temp files
+*.swp
+*.swo
