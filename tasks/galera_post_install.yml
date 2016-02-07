@@ -79,3 +79,9 @@
     state: absent
   tags:
     - galera-config
+
+- name: Deploy fixed init script for mysql
+  copy:
+    src: mysql
+    dest: /etc/init.d/mysql
+    mode: 0755
